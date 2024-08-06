@@ -180,6 +180,37 @@ nav ul li a.active span::after {
 }
 
 
+/* Add this to your CSS file */
+.after-border-bottom::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #c7c3c3; /* Adjust the color and size as needed */
+    padding-top: 15px; /* Adjust the spacing as needed */
+  }
+  
+
+  .director-content h2{
+    color: #50b5b5;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 0px;
+    padding: 2px 0px;
+  }
+
+
+  .director-content p{
+    color: white;
+    font-weight: 300;
+    margin: 8px 0px;
+    padding: 2px 0px;
+  }
+
+  .director-content ul{
+    list-style-type: disc;
+    padding-left: 30px;
+    color: white;
+  }
 
 
 @media(min-width:778px){
